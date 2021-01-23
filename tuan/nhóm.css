@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.headline{
+    font-size: 10px ;
+    padding-top: 20px ;
+    text-align: center;
+}
+font {
+    color: blue;
+}
+img{
+    width: 100%;
+    height: 102%;
+}
+header{
+    width: 1200px ;
+    margin: 0 auto;
+    padding: 20px 25px ;
+    display:flex;
+    justify-content: center;
+}
+.text{
+    z-index: 1000;
+    margin-left: -15px;
+}
+.logo {
+    width: 20%;
+    color:blue;
+}
+.b1{
+    width: 90%;
+    padding: 20px 25px;
+    background-color: blue;
+    margin-top: -20px ;
+    display: flex;
+   
+}
+.b2{
+    width: 90%;
+    padding: 20px 25px ;
+    background-color: blue;
+    margin-top: 10px ;
+    display:flex;
+}
+.b3{
+    padding: 20px 25px ;
+    background-color: blue;
+    margin-top: 10px ;
+    display:flex;
+}
+.b4{
+    padding: 20px 25px ;
+    background-color: blue;
+    margin-top: 10px ;
+    display:flex;
+}
+
+a{
+    height: 50px;
+    width: 60px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; 
+    background:#fff;
+}
+nav{
+    display: block;
+}
+/*phần hiếu */
+section{
+    background: url(./bkgr.jpg);
+    background-size: cover;
+}
+
+.contain{
+    background-color: #1630c4da;
+    margin-top: 30px ;
+}
+
+.include{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bring{
+    text-align: center;
+}
+
+.icon{
+    font-size: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;    
+    display: inline-block;
+}
+
+.icon i{
+    background-color:white;
+    color:  #1630c4f3;
+    border: 2px solid  #1630c4c9;
+    width: 50px;
+    height: 50px;
+    padding-top: 16px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 50%;
+}
+
+.text{
+    color: white;
+    margin-top: 30px;
+}
+
+.text span{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text p{
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+
+
